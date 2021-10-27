@@ -1,3 +1,5 @@
 import "~/common/scss/main.scss";
 
-require("../components/ds-youtube-player/ds-youtube-player");
+import youtubePlayer from "../components/ds-youtube-player/ds-youtube-player";
+
+youtubePlayer();
